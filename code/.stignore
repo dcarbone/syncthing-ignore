@@ -1,0 +1,8 @@
+(?d).DS_Store
+(?d).Spotlight-*
+(?d).Trashes
+(?d).git/**.lock
+(?d)*___jb_old___
+(?d)*___jb_tmp___
+(?d).git/**tmp_obj_*
+.idea
