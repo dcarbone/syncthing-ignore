@@ -1,12 +1,27 @@
+// macos crap
 (?d).DS_Store
 (?d).Spotlight-*
 (?d).Trashes
+
+// git lock files
 (?d).git/**.lock
+(?d).git/**tmp_obj_*
+
+// jetbrains crap
 (?d)*___jb_old___
 (?d)*___jb_tmp___
-(?d).git/**tmp_obj_*
 .idea/
+
+// laravel crap
 storage/api-docs/
 storage/framework/
 storage/logs/
+
+// symfony
+var/cache/
+var/logs/
+var/sessions/
+web/bundles/
+
+// everybody crap
 vendor/
