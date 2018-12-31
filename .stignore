@@ -4,4 +4,4 @@
 (?d).Trashes
 
 // syncthing conflict files
-**.sync-conflict**
+*.sync-conflict*
