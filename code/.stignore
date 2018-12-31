@@ -3,6 +3,9 @@
 (?d).Spotlight-*
 (?d).Trashes
 
+// syncthing conflict files
+*.sync-conflict*
+
 // git lock files
 (?d).git/**.lock
 (?d).git/**tmp_obj_*
