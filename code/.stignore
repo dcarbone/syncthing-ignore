@@ -30,6 +30,6 @@ web/bundles/
 vendor/
 
 // go mod crap
-pkg/mod/cache/download/**.tmp-[0-9]
-pkg/mod/cache/vcs/**.lock
+pkg/mod/cache/download/
+pkg/mod/cache/vcs/
 src/*.go.[0-9]
