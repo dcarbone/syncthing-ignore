@@ -1,0 +1,12 @@
+// don't care
+Cache/Transcode/
+Logs/
+Crash Reports/
+
+// general purpose
+(?d).DS_Store
+(?d).Spotlight-*
+(?d).Trashes
+
+// syncthing conflict files
+*.sync-conflict*
