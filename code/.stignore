@@ -32,4 +32,4 @@ vendor/
 // go mod crap
 pkg/mod/cache/download/
 pkg/mod/cache/vcs/
-src/*.go.[0-9]
+src/**.go.[0-9]
