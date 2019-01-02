@@ -6,9 +6,11 @@
 // syncthing conflict files
 *.sync-conflict*
 
-// git lock files
+// git stuff
 (?d).git/**.lock
 (?d).git/**tmp_obj_*
+(?d).git/MERGE_MSG
+(?d).git/rebase-merge
 
 // jetbrains crap
 (?d)*___jb_old___
