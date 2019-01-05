@@ -28,6 +28,9 @@ var/logs/
 var/sessions/
 web/bundles/
 
+// node crap
+node_modules/
+
 // everybody crap
 vendor/
 
