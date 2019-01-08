@@ -37,4 +37,6 @@ vendor/
 // go mod crap
 pkg/mod/cache/download/
 pkg/mod/cache/vcs/
-src/**.go.[0-9]*
+
+// go dep
+pkg/dep/sources/
