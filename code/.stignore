@@ -1,12 +1,12 @@
-// macos crap
+// macos
 (?d).DS_Store
 (?d).Spotlight-*
 (?d).Trashes
 
-// syncthing conflict files
+// syncthing conflict
 *.sync-conflict*
 
-// git stuff
+// git
 (?d).git/**.lock
 (?d).git/**tmp_obj_*
 (?d).git/MERGE_MSG
@@ -17,7 +17,7 @@
 (?d)*___jb_tmp___
 .idea/
 
-// laravel crap
+// laravel
 storage/api-docs/
 storage/framework/
 storage/logs/
@@ -28,15 +28,14 @@ var/logs/
 var/sessions/
 web/bundles/
 
-// node crap
+// node
 node_modules/
 
-// everybody crap
-vendor/
-
-// go mod crap
-pkg/mod/cache/download/
-pkg/mod/cache/vcs/
+// go mod
+/pkg/mod/
 
 // go dep
-pkg/dep/sources/
+/pkg/dep/
+
+// everybody
+vendor/
