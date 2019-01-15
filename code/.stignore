@@ -4,17 +4,18 @@
 (?d).Trashes
 
 // syncthing conflict
-*.sync-conflict*
+(?d)*.sync-conflict*
 
 // git
-(?d).git/**.lock
-(?d).git/**tmp_obj_*
-(?d).git/MERGE_MSG
-(?d).git/rebase-merge
+.git/**.lock
+.git/**tmp_obj_*
+.git/rebase-merge
+.git/MERGE_*
+.git/.MERGE_*
 
 // jetbrains crap
-(?d)*___jb_old___
-(?d)*___jb_tmp___
+___jb_old___
+___jb_tmp___
 .idea/
 
 // laravel
