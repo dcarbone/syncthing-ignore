@@ -14,8 +14,8 @@
 .git/.MERGE_*
 
 // jetbrains crap
-___jb_old___
-___jb_tmp___
+*___jb_old___*
+*___jb_tmp___*
 .idea/
 
 // laravel
