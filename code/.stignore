@@ -16,7 +16,7 @@
 // jetbrains crap
 *___jb_old___*
 *___jb_tmp___*
-.idea/
+**.idea/
 
 // laravel
 storage/api-docs/
