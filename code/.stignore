@@ -37,3 +37,6 @@ node_modules/
 
 // go dep
 /pkg/dep/
+
+// all the things
+vendor/
