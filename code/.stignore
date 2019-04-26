@@ -31,7 +31,7 @@ var/sessions/
 web/bundles/
 
 // node
-node_modules/
+/**/node_modules/
 
 // go mod
 /pkg/mod/
@@ -40,4 +40,4 @@ node_modules/
 /pkg/dep/
 
 // all the things
-vendor/
+/**/vendor/
