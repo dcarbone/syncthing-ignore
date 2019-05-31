@@ -35,9 +35,11 @@ web/bundles/
 
 // go mod
 /pkg/mod/
+/src/pkg/mod/
 
 // go dep
 /pkg/dep/
+/src/pkg/dep/
 
 // all the things
 /**/vendor/
