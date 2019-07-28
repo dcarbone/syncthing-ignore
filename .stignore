@@ -1,7 +1,10 @@
-// general purpose
+// macos
 (?d).DS_Store
 (?d).Spotlight-*
 (?d).Trashes
+(?d).fseventsd
+(?d).TemporaryItems
+(?d).DocumentRevisions-V[0-9]+
 
-// syncthing conflict files
-*.sync-conflict*
+// syncthing conflict
+(?d)*.sync-conflict*
