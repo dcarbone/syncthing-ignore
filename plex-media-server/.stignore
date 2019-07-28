@@ -6,9 +6,6 @@
 (?d).TemporaryItems
 (?d).DocumentRevisions-V[0-9]+
 
-// syncthing conflict
-(?d)*.sync-conflict*
-
 // don't care
 Cache/Transcode/
 Logs/
